@@ -1,8 +1,6 @@
 #OpenStreetMap Data Case Study
----
 
 ## Map Area:
----
 
 Brooklyn, NYC, United States
 
@@ -13,7 +11,6 @@ boroughs and New Jersey, which provides a bit more challenge to clean the data.
 
 
 ## Problems in the Map Area:
--------
 
 Analyzing the sample data extracted from the main data revealed the problems listed below,
 
@@ -156,7 +153,6 @@ if type == 'gnis':
 ```
 
 ## Data Overview
----
 
 ### File Sizes
 _____
@@ -205,10 +201,8 @@ select count(*) as count from ways_nodes;
 --------
 
 ## More Details on the selected data
----
 
-
-### No. of Distinct users  ---- 1310
+### No. of Distinct users  -- 1310
 
 ```sqlite
 select count(distinct user) from nodes;
@@ -256,7 +250,6 @@ fire_station | 120
 ```
 
 ## Additional Data statistics
---------
 
 ### Bicycle racks
 
@@ -351,7 +344,6 @@ West Houston Street | 2
 ```
 
 ## Additional Ideas
------------
 
 ### Nodes with out any information
 
@@ -387,7 +379,6 @@ A set of guidelines for users, who enter data, to follow for most commonly used 
 uniformity greatly.
 
 ## Conclusion
---------
 
 The biggest challenge in this data set was to filter out the data which does not concern Brooklyn and feature wise this dataset does not
 provide complete details and has a lot of room to improve. The quality of the dataset can be improved by imposing more guidelines and standards for the users to follow. That said, once parsed and cleaned, the dataset do provide some really meaningful information pertaining to understand the area of our interest.
