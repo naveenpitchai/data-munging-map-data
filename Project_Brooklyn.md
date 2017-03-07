@@ -151,11 +151,10 @@ if type == 'gnis':
             nonbrook_nodes.append(each_tag['id'])
             return None
 ```
-
+_______
 ## Data Overview
 
 ### File Sizes
-_____
 
     brooklyn.osm ---------- 667.8 MB
     project_brooklyn.db --- 422.8 MB
@@ -167,7 +166,6 @@ _____
 
 
 ### Record Counts
-____
 
 #### NODES = 2,490,973
 
@@ -248,7 +246,7 @@ bar | 190
 fast_food | 185
 fire_station | 120
 ```
-
+__________
 ## Additional Data statistics
 
 ### Bicycle racks
@@ -342,7 +340,7 @@ Court Street | 3
 Front Street | 2
 West Houston Street | 2
 ```
-
+__________
 ## Additional Ideas
 
 ### Nodes with out any information
@@ -377,7 +375,7 @@ Various values of Keys and types are used to represent the same features like, c
 
 A set of guidelines for users, who enter data, to follow for most commonly used keys in a Metropolitan would help in data
 uniformity greatly.
-
+__________
 ## Conclusion
 
 The biggest challenge in this data set was to filter out the data which does not concern Brooklyn and feature wise this dataset does not
