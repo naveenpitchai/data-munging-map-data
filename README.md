@@ -10,12 +10,13 @@ ways
 tags on ways
 ways _ nodes
 
-### The data munding included
+### The data munging includes
 
-1. Parsing the features in the osm file using XML iter parse in to python variables
-2. Identifying and filtering out area other than brooklyn
-3. fixing abbreviated street names in a more common formats
-4. keys were modified to be more uniform across the dataset
+1. Data mining of brooklyn file from openstreetmap website
+2. Parsing the features in the osm file using XML iter parse in to python variables
+3. Identifying and filtering out area other than brooklyn
+4. fixing abbreviated street names in a more common formats
+5. keys were modified to be more uniform across the dataset
 
 process_file.py -> contains major chunk of the data munging code. 
 
